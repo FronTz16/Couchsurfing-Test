@@ -38,19 +38,6 @@ docker-compose up -d --build
 
 Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
-## Tools used
-
-TS
-Docker
-
-### UI
-MUI
-
-### Formating
-Eslint
-Prettier
-Pending (Husky)
-
 ## Justification
 
 I decided to initialize the project with create-next-app. It is really fast and allows several initial configurations like using TypeScript, ESLint, Next Router, etc.
@@ -64,6 +51,10 @@ I picked [MUI](https://mui.com) because it is a really popular UI framework, and
 Why docker?
 
 I think that nowadays having a non-dockerized app is a bad idea, especially in a team where environments can vary greatly between Windows, Mac, and Ubuntu or any other Linux distribution. So I always dockerize my projects from the beginning.
+
+Why prettier & eslint?
+
+Well, probably I dont need to say nothing about these 2 tools, but having clean and consistent code style is always good.
 
 
 ## Problems faced
